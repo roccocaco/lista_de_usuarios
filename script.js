@@ -25,8 +25,8 @@ window.addEventListener('load', async () => {
     results.map((e) =>
         divContainer.innerHTML += `
             <h4>Nome: ${e.name}</h4>
-            <p>Email: ${e.email}<p>
-            <p>Cidade: ${e.address.city}<p>
+            <p>Email: ${e.email}</p>
+            <p>Cidade: ${e.address.city}</p>
     `
     );
 });
@@ -41,8 +41,8 @@ btnSearch.addEventListener('click', () => {
     filterByName.map((e) =>
         divContainer.innerHTML += `
             <h4>Nome: ${e.name}</h4>
-            <p>Email: ${e.email}<p>
-            <p>Cidade: ${e.adress.city}<p>
+            <p>Email: ${e.email}</p>
+            <p>Cidade: ${e.address.city}</p>
     `
     );
 });
